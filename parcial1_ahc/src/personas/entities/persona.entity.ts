@@ -31,11 +31,11 @@ export class Persona {
 
   
     @Column('date')
-    fecha_acimiento: Date;
+    fecha_nacimiento: Date;
 
     
     @CreateDateColumn({ name: 'fecha_creacion' })
-    fecha_nacimiento: Date;
+    fechaCreacion: Date;
 
     @UpdateDateColumn({ name: 'fecha_modificacion' })
     fechaModificacion: Date;
